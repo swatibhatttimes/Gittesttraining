@@ -4,8 +4,7 @@ added by me swati
 new new branch added again 
 not getting
 no not getting
-new branch1
- 
+branch1 
 <<<<<<< HEAD
 check edit commit
 in new branch
