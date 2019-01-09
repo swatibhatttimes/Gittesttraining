@@ -1,6 +1,11 @@
 Test
 added by me swati
+<<<<<<< HEAD
 check edit commit
+=======
+check pull
+check pull again
+>>>>>>> 8ccc56dbf2d739342ef35217ec34fe351c5c52b0
 Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 ~
 $ cd d:
 
@@ -328,6 +333,339 @@ Branch master set up to track remote branch master from origin.
 Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
 $
 
+
+// again add,commit ,push
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 ~
+$ cd d:
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d
+$ cd D:\git_training
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training
+$ git init
+Initialized empty Git repository in D:/git_training/.git/
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config -- list
+error: key does not contain a section: list
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.name=Swati.Bhatt
+user.email=swati.bhatt@timesinternet.in
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --global --list
+user.name=Swati.Bhatt
+user.email=swati.bhatt@timesinternet.in
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --global user.name
+Swati.Bhatt
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --gloabl user.email
+error: unknown option `gloabl'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --global user.email
+swati.bhatt@timesinternet.in
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --help
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config -- help
+error: key does not contain a section: help
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --help
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ ls
+testfile.java.docx
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testfile.java.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git add .
+  git status
+git commit
+git commit -m"initial commit in git training"
+
+
+//
+
+
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 ~
+$ cd d:
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d
+$ cd D:\git_training
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training
+$ git init
+Initialized empty Git repository in D:/git_training/.git/
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config -- list
+error: key does not contain a section: list
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.name=Swati.Bhatt
+user.email=swati.bhatt@timesinternet.in
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --global --list
+user.name=Swati.Bhatt
+user.email=swati.bhatt@timesinternet.in
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --global user.name
+Swati.Bhatt
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --gloabl user.email
+error: unknown option `gloabl'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --global user.email
+swati.bhatt@timesinternet.in
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --help
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config -- help
+error: key does not contain a section: help
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git config --help
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ ls
+testfile.java.docx
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testfile.java.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git add.
+git git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git add .
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   testfile.java.docx
+
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git commit -m"initial commit in git training"
+[master (root-commit) 5e6d4c1] initial commit in git training
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testfile.java.docx
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git add .
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git add .
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git commit
+[master 180a40a] t status
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$
+
+
+//
+https://github.com/swatibhatttimes/Gittesttraining.git
+//
+
+$ git commit
+[master 180a40a] t status
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git remote add origin https://github.com/swatibhatttimes/Gittesttraining.git
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$ git push -u origin master
+Fatal: AggregateException encountered.
+Username for 'https://github.com': swati.bhatt@timesinternet.in
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 9.09 KiB | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/swatibhatttimes/Gittesttraining.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
+$
+
+
+
+check pull & push
 
 
 
