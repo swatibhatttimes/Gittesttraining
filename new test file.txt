@@ -2,6 +2,7 @@ Test
 added by me swati
 <<<<<<< HEAD
 check edit commit
+in new branch
 =======
 check pull
 check pull again
