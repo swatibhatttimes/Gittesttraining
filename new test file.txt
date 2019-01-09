@@ -661,8 +661,10 @@ To https://github.com/swatibhatttimes/Gittesttraining.git
 Branch master set up to track remote branch master from origin.
 
 Swati.Bhatt@TBNDTHTIMEL0048 MINGW64 /d/git_training (master)
-$
+$ git fetch origin
+git merge
 
+again
 
 
 check pull & push
