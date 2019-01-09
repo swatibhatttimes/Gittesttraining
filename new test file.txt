@@ -5,6 +5,7 @@ new new branch added again
 not getting
 no not getting
 branch1 
+branch1 added again
 <<<<<<< HEAD
 check edit commit
 in new branch
