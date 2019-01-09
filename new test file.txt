@@ -1,9 +1,11 @@
+new branch new
 Test
 added by me swati
 new new branch added again
 not getting
 <<<<<<< HEAD
 check edit commit
+in new branch
 =======
 check pull
 check pull again
