@@ -1,8 +1,10 @@
 new branch new
 Test
 added by me swati
-new new branch added again
+new new branch added again 
 not getting
+no not getting
+ 
 <<<<<<< HEAD
 check edit commit
 in new branch
